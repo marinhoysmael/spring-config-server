@@ -1,0 +1,24 @@
+# application.yml
+
+# Configurações comuns para todos os perfis
+common:
+  database:
+    url: jdbc:mysql://localhost:3306/myapp
+    username: myuser
+    password: mypassword
+
+# Configurações específicas para o ambiente de desenvolvimento
+dev:
+  server:
+    port: 8080
+  logging:
+    level:
+      root: DEBUG
+
+# Configurações específicas para o ambiente de produção
+prod:
+  server:
+    port: 9090
+  logging:
+    level:
+      root: INFO
