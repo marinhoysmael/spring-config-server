@@ -1,7 +1,3 @@
-# spring-config-server
-
-Como gerar uma chava para o Spring Config Server
-
 # Tutorial de Criação de Keystore para Spring Config Server
 
 Este tutorial orienta você sobre como criar um arquivo JKS (Java KeyStore) para uso com o Spring Config Server. 
