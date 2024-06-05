@@ -21,7 +21,7 @@ keytool -genkeypair \
   -storepass nopass \
   -keypass nopass \
   -dname "CN=spring-config-server, OU=TI, O=MyDigital, L=Teresina, ST=Piauí, C=BR"
-
+````
 
 **Parâmetros do comando:**
 
@@ -33,7 +33,7 @@ keytool -genkeypair \
 - `-storetype JKS`: Tipo do keystore.
 - `-storepass nopass`: Senha do keystore.
 - `-keypass nopass`: Senha da chave.
-- `-dname "CN=spring-config-server, OU=TI, O=Rabobank, L=São Paulo, ST=São Paulo, C=BR"`: Informações do certificado.
+- `-dname "CN=spring-config-server, OU=TI, O=MyDigital, L=Teresina, ST=Piauí, C=BR"`: Informações do certificado.
 
 ## Passo 2: Configurar o Spring Cloud Config Server
 
