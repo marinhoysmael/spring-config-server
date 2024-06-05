@@ -15,10 +15,3 @@ dev:
     level:
       root: DEBUG
 
-# Configurações específicas para o ambiente de produção
-prod:
-  server:
-    port: 9090
-  logging:
-    level:
-      root: INFO
